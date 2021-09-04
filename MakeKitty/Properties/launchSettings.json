@@ -1,0 +1,8 @@
+{
+	"profiles": {
+		"MakeKitty": {
+			"commandName": "Project",
+			"commandLineArgs": "-name MakeKitty"
+		}
+	}
+}

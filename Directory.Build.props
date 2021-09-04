@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<Import Condition="Exists($([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../')))" Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+	<PropertyGroup>
+		<Authors>Wencey Wang</Authors>
+		<Company>Dream Recorder</Company>
+		<Copyright>Dream Recorder (c) $([System.DateTime]::UtcNow.Year)</Copyright>
+		<IncludeSymbols>true</IncludeSymbols>
+		<LangVersion>latest</LangVersion>
+		<PackageIcon>DreamryLogo.png</PackageIcon>
+		<PackageIconUrl>https://webresources.dreamry.org/DreamryLogo.svg</PackageIconUrl>
+		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+		<PackageProjectUrl>https://vsts.dreamry.org/DefaultCollection/MakeKitty</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Product>DreamRecorder.MakeKitty</Product>
+		<RepositoryType>TFS</RepositoryType>
+		<RepositoryUrl>https://vsts.dreamry.org/DefaultCollection/MakeKitty</RepositoryUrl>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<TargetFramework>net6.0</TargetFramework>
+		<Version>0.0.0.$([MSBuild]::ValueOrDefault('$(BuildNumber)', '0'))</Version>
+	</PropertyGroup>
+</Project>
