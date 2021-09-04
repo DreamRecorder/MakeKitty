@@ -1,4 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+	  <SccProjectName>SAK</SccProjectName>
+	  <SccProvider>SAK</SccProvider>
+	  <SccAuxPath>SAK</SccAuxPath>
+	  <SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -12,7 +19,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DreamRecorder.ToolBox.CommandLine" Version="1.1.6.691" />
+		<PackageReference Include="DreamRecorder.ToolBox.CommandLine" Version="1.1.6.703" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
 		<PackageReference Include="FIGlet.Net" Version="1.1.2" />
 	</ItemGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeKitty", "MakeKitty\MakeKitty.csproj", "{6C1F6083-4F4C-4133-A7F9-B6138D35BE3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeKitty", "MakeKitty\MakeKitty.csproj", "{6C1F6083-4F4C-4133-A7F9-B6138D35BE3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,5 +21,14 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7224ED85-B4E8-47FD-AA12-CEC1EF1ECB93}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vsts.dreamry.org/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MakeKitty\\MakeKitty.csproj
+		SccProjectName1 = MakeKitty
+		SccLocalPath1 = MakeKitty
 	EndGlobalSection
 EndGlobal
