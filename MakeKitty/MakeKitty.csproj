@@ -4,6 +4,7 @@
 		<OutputType>Exe</OutputType>
 		<RootNamespace>DreamRecorder.MakeKitty</RootNamespace>
 		<AssemblyName>DreamRecorder.MakeKitty</AssemblyName>
+		<PublishProfile>FolderProfile</PublishProfile>
 	</PropertyGroup>
 
 	<ItemGroup>

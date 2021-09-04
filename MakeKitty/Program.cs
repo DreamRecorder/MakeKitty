@@ -91,7 +91,7 @@ namespace DreamRecorder.MakeKitty
 
 		public override void ShowLogo()
 		{
-			StringBuilder logo = new StringBuilder();
+			var logo = new StringBuilder();
 			logo.AppendLine(
 				"           __..--''``---....___   _..._    __\r\n /// //_.-'    .-/\";  `        ``<._  ``.''_ `. / // /\r\n///_.-' _..--.'_    \\                    `( ) ) // //\r\n/ (_..-' // (< _     ;_..__               ; `' / ///\r\n / // // //  `-._,_)' // / ``--...____..-' /// / //");
 
