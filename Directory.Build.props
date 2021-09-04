@@ -16,7 +16,7 @@
 		<RepositoryType>TFS</RepositoryType>
 		<RepositoryUrl>https://vsts.dreamry.org/DefaultCollection/MakeKitty</RepositoryUrl>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net5.0</TargetFramework>
 		<Version>0.0.0.$([MSBuild]::ValueOrDefault('$(BuildNumber)', '0'))</Version>
 	</PropertyGroup>
 </Project>
